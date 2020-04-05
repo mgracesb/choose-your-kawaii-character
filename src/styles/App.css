@@ -23,19 +23,30 @@
   align-items: center;
   align-content: center;
   box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.329);
+  border-radius: 5px;
   position: relative;
 }
 .character {
   height: 150px;
   width: 150px;
   position: absolute;
-  top: 32%;
-  left: 23%;
+  top: 33%;
+  left: 24%;
 }
 .item {
   height: 145px;
   width: 145px;
   position: absolute;
-  top: 22%;
-  left: 24%;
+  top: 23%;
+  left: 25%;
+}
+
+.button {
+  height: 20px;
+  width: 80px;
+  color: rgb(31, 31, 31);
+  background-color: white;
+  box-shadow: inset 1px -2px 4px rgba(0, 0, 0, 0.377);
+  border-radius: 20px;
+  margin-top: 30px;
 }
