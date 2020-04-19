@@ -13,7 +13,7 @@
   align-items: center;
   align-content: center;
 }
-.container {
+.kawaiiContainer {
   background-color: rgb(255, 255, 255);
   width: 280px;
   height: 320px;
@@ -42,11 +42,23 @@
 }
 
 .button {
-  height: 20px;
-  width: 80px;
-  color: rgb(31, 31, 31);
-  background-color: white;
+  height: 30px;
+  width: 100px;
+  font-size: 14px;
+  color: white;
+  background-image: linear-gradient(
+    rgb(170, 170, 255),
+    rgb(255, 176, 235),
+    rgb(255, 176, 235),
+    rgb(170, 170, 255)
+  );
   box-shadow: inset 1px -2px 4px rgba(0, 0, 0, 0.377);
   border-radius: 20px;
   margin-top: 30px;
+}
+
+.formContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
 }
