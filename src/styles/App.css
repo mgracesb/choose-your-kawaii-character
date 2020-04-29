@@ -22,12 +22,6 @@
   padding: 5%;
 }
 
-.bgContainer {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-}
-
 .character {
   grid-row: 2/6;
   grid-column: 2/6;
@@ -58,9 +52,48 @@ select {
   outline-style: none;
 }
 
-/* PREVIEW BG */
-.bgContainer {
+/* PREVIEW BG -STYLES*/
+.defaultBg {
   background-image: url("../images/beach.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.rainbow {
+  background-image: url("../images/rainbow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.techy {
+  background-image: url("../images/techy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.mermaid {
+  background-image: url("../images/mermaid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.sweetooth {
+  background-image: url("../images/sweets.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
