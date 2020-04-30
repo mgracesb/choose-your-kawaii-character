@@ -8,37 +8,43 @@ const Character = (props) => {
 
   return (
     <form className="characterForm" onChange={selectChar}>
-      <label className="charLabel">
-        <input type="radio" name="character" value="panda" />
-        Panda
+      <label htmlFor="character" className="charLabel">
+        <input type="radio" name="character" id="character" value="panda" />
+        &nbsp; Panda
       </label>
-      <label className="charLabel">
-        <input type="radio" name="character" value="koala" />
-        Koala
+
+      <label htmlFor="character" className="charLabel">
+        <input type="radio" name="character" value="koala" id="character" />
+        &nbsp; Koala
       </label>
-      <label className="charLabel">
-        <input type="radio" name="character" value="bunny" />
-        Bunny
+
+      <label htmlFor="character" className="charLabel">
+        <input type="radio" name="character" value="bunny" id="character" />
+        &nbsp; Bunny
       </label>
-      <label className="charLabel">
-        <input type="radio" name="character" value="lion" />
-        Lion
+
+      <label htmlFor="character" className="charLabel">
+        <input type="radio" name="character" value="lion" id="character" />
+        &nbsp; Lion
       </label>
-      <label className="charLabel">
-        <input type="radio" name="character" value="alien" />
-        Alien
+
+      <label htmlFor="character" className="charLabel">
+        <input type="radio" name="character" value="alien" id="character" />
+        &nbsp; Alien
       </label>
-      <label className="charLabel">
-        <input type="radio" name="character" value="dog" />
-        Dog
+
+      <label htmlFor="character" className="charLabel">
+        <input type="radio" name="character" value="dog" id="character" />
+        &nbsp; Dog
       </label>
-      <label className="charLabel">
-        <input type="radio" name="character" value="death" />
-        Death
+
+      <label htmlFor="character" className="charLabel">
+        <input type="radio" name="character" value="death" id="character" />
+        &nbsp; Death
       </label>
-      <label className="charLabel">
-        <input type="radio" name="character" value="fish" />
-        Fish
+      <label htmlFor="character" className="charLabel">
+        <input type="radio" name="character" value="fish" id="character" />
+        &nbsp; Fish
       </label>
     </form>
   );

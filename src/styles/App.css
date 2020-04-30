@@ -42,7 +42,7 @@
 
 select {
   font-family: "Spartan", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: rgb(85, 85, 85);
   background-color: white;
   border-radius: 20px;
@@ -96,4 +96,20 @@ select {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
+}
+
+/* CHARACTER RADIOS */
+
+/* PREVIEW CHARACTER */
+.characterForm {
+  font-family: "Spartan", sans-serif;
+  font-size: 14px;
+  grid-column: 3;
+  grid-row: 10;
+  display: grid;
+  grid-template-columns: 20px, 1fr;
+}
+
+label {
+  padding-left: 5px;
 }

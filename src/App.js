@@ -18,6 +18,7 @@ class App extends React.Component {
       // item:default2
     };
     this.bgHandler = this.bgHandler.bind(this);
+    this.charHandler = this.charHandler.bind(this);
   }
 
   bgHandler(value) {
@@ -33,8 +34,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Preview bg={bg} character={character} item1={item1} />
-        <Bg bg={bg} bgHandler={this.bgHandler} />
-        <Character />
+        <Bg bgHandler={this.bgHandler} />
+        <Character charHandler={this.charHandler} />
       </div>
     );
   }
