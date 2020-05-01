@@ -7,43 +7,104 @@ const Character = (props) => {
   };
 
   return (
-    <form className="characterForm" onChange={selectChar}>
+    <form className="characterForm">
+      <h2>Character:</h2>
+      <input
+        type="radio"
+        name="character"
+        id="character"
+        value="panda"
+        onClick={selectChar}
+      />
       <label htmlFor="character" className="charLabel">
-        <input type="radio" name="character" id="character" value="panda" />
         &nbsp; Panda
       </label>
 
+      <input
+        type="radio"
+        name="character"
+        value="koala"
+        id="character"
+        onClick={selectChar}
+      />
       <label htmlFor="character" className="charLabel">
-        <input type="radio" name="character" value="koala" id="character" />
         &nbsp; Koala
       </label>
 
+      <input
+        type="radio"
+        name="character"
+        value="hamster"
+        id="character"
+        onClick={selectChar}
+      />
       <label htmlFor="character" className="charLabel">
-        <input type="radio" name="character" value="bunny" id="character" />
+        &nbsp; Hamster
+      </label>
+
+      <input
+        type="radio"
+        name="character"
+        value="bunny"
+        id="character"
+        onClick={selectChar}
+      />
+      <label htmlFor="character" className="charLabel">
         &nbsp; Bunny
       </label>
 
+      <input
+        type="radio"
+        name="character"
+        value="lion"
+        id="character"
+        onClick={selectChar}
+      />
       <label htmlFor="character" className="charLabel">
-        <input type="radio" name="character" value="lion" id="character" />
         &nbsp; Lion
       </label>
 
+      <input
+        type="radio"
+        name="character"
+        value="alien"
+        id="character"
+        onClick={selectChar}
+      />
       <label htmlFor="character" className="charLabel">
-        <input type="radio" name="character" value="alien" id="character" />
         &nbsp; Alien
       </label>
 
+      <input
+        type="radio"
+        name="character"
+        value="dog"
+        id="character"
+        onClick={selectChar}
+      />
       <label htmlFor="character" className="charLabel">
-        <input type="radio" name="character" value="dog" id="character" />
         &nbsp; Dog
       </label>
 
+      <input
+        type="radio"
+        name="character"
+        value="death"
+        id="character"
+        onClick={selectChar}
+      />
       <label htmlFor="character" className="charLabel">
-        <input type="radio" name="character" value="death" id="character" />
         &nbsp; Death
       </label>
+
+      <input
+        type="radio"
+        name="character"
+        value="fish"
+        id="character"
+        onClick={selectChar}
+      />
       <label htmlFor="character" className="charLabel">
-        <input type="radio" name="character" value="fish" id="character" />
         &nbsp; Fish
       </label>
     </form>

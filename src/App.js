@@ -1,11 +1,10 @@
 import React from "react";
 import "./styles/App.css";
 import Character from "./components/Character";
-// import Item1 from "./components/Items";
+import { Item1 } from "./components/Items";
 // import Item2 from "./components/Items";
 import Bg from "./components/Bg";
 import Preview from "./components/Preview";
-import default1 from "./images/item1.svg";
 
 class App extends React.Component {
   constructor(props) {
@@ -14,11 +13,12 @@ class App extends React.Component {
     this.state = {
       bg: "defaultBg",
       character: "defaultKawaii",
-      item1: default1,
+      item1: "defaultItem",
       // item:default2
     };
     this.bgHandler = this.bgHandler.bind(this);
     this.charHandler = this.charHandler.bind(this);
+    this.item1Handler = this.item1Handler.bind(this);
   }
 
   bgHandler(value) {
@@ -29,13 +29,18 @@ class App extends React.Component {
     this.setState({ character: value });
   }
 
+  item1Handler(value) {
+    this.setState({ item1: value });
+  }
+
   render() {
     const { bg, character, item1 } = this.state;
     return (
       <div className="App">
-        <Preview bg={bg} character={character} item1={item1} />
+        <Preview bg={bg} char={character} item1={item1} />
         <Bg bgHandler={this.bgHandler} />
         <Character charHandler={this.charHandler} />
+        <Item1 item1Handler={this.item1Handler} />
       </div>
     );
   }

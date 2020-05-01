@@ -1,16 +1,12 @@
 import React from "react";
-// import Character from "./components/Preview";
-// import Item1 from "./components/Items";
-// import Item2 from "./components/Items";
-// import Bg from "./components/Bg";
 
 const Preview = (props) => {
   console.log(props);
   return (
     <div className="previewContainer">
-      <div className={props.bg}>
-        <img src="" className="character" alt="" />
-        <img src="" className="item" alt="" />
+      <div className={`bg__${props.bg}`}>
+        <span className={`char__${props.char}`} alt={props.char}></span>
+        <span className={`item1__${props.item1}`} alt={props.item1}></span>
       </div>
     </div>
   );
