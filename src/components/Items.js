@@ -15,18 +15,59 @@ export const Item1 = (props) => {
         onChange={selectItem1}
       />
       <label htmlFor="item1" className="item1Label">
-        Kitty headband
+        Bunny headband
       </label>
-      <input type="radio" value="one" name="item1" id="item11" />
+
+      <input
+        type="radio"
+        value="one"
+        name="item1"
+        id="item11"
+        onChange={selectItem1}
+      />
       <label htmlFor="item11" className="item1Label">
         ?
       </label>
-      <input type="radio" value="two" name="item1" id="item12" />
+      <input
+        type="radio"
+        value="two"
+        name="item1"
+        id="item12"
+        onChange={selectItem1}
+      />
       <label htmlFor="item12" className="item1Label">
         ?
       </label>
-      <input type="radio" value="three" name="item1" id="item13" />
+      <input
+        type="radio"
+        value="three"
+        name="item1"
+        id="item13"
+        onChange={selectItem1}
+      />
       <label htmlFor="item13" className="item1Label">
+        ?
+      </label>
+
+      <input
+        type="radio"
+        value="four"
+        name="item1"
+        id="item14"
+        onChange={selectItem1}
+      />
+      <label htmlFor="item14" className="item1Label">
+        ?
+      </label>
+
+      <input
+        type="radio"
+        value="five"
+        name="item1"
+        id="item14"
+        onChange={selectItem1}
+      />
+      <label htmlFor="item14" className="item1Label">
         ?
       </label>
     </form>

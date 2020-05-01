@@ -136,7 +136,7 @@ select {
   background-repeat: no-repeat;
   background-size: contain;
   grid-row: 2/6;
-  grid-column: 2/6;
+  grid-column: 1/-1;
   background-position: center;
 }
 
@@ -207,7 +207,7 @@ select {
 }
 
 .item1__defaultItem {
-  background-image: url("../images/item1.svg");
+  background-image: url("../images/item11.svg");
   background-repeat: no-repeat;
   background-size: contain;
   grid-row: 1/5;
@@ -216,16 +216,16 @@ select {
 }
 
 .item1__one {
-  background-image: url("../images/item1.svg");
+  background-image: url("../images/item17.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 1/5;
-  grid-column: 2/6;
+  grid-row: 2;
+  grid-column: 3;
   background-position: center;
 }
 
 .item1__two {
-  background-image: url("../images/item2.svg");
+  background-image: url("../images/item12.svg");
   background-repeat: no-repeat;
   background-size: contain;
   grid-row: 1/5;
@@ -234,11 +234,29 @@ select {
 }
 
 .item1__three {
-  background-image: url("../images/item3.png");
+  background-image: url("../images/item13.svg");
   background-repeat: no-repeat;
   background-size: contain;
   grid-row: 1/5;
   grid-column: 2/6;
+  background-position: center;
+}
+
+.item1__four {
+  background-image: url("../images/item14.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 1/5;
+  grid-column: 2/6;
+  background-position: center;
+}
+
+.item1__five {
+  background-image: url("../images/item15.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 1/5;
+  grid-column: 1/-1;
   background-position: center;
 }
 
