@@ -24,6 +24,9 @@ const Bg = (props) => {
         <option name="bg" value="sweetooth">
           Sweetooth
         </option>
+        <option name="bg" value="circuit">
+          Circuit
+        </option>
       </select>
     </form>
   );

@@ -56,6 +56,15 @@ select {
   grid-template-rows: repeat(6, 1fr);
 }
 
+.bg__beach {
+  background-image: url("../images/beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
 .bg__rainbow {
   background-image: url("../images/rainbow.jpg");
   background-repeat: no-repeat;
@@ -85,6 +94,15 @@ select {
 
 .bg__sweetooth {
   background-image: url("../images/sweets.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.bg__circuit {
+  background-image: url("../images/circuit.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -246,7 +264,7 @@ select {
   background-image: url("../images/item14.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 1/5;
+  grid-row: 1/4;
   grid-column: 2/6;
   background-position: center;
 }
@@ -287,6 +305,6 @@ select {
 
   .item1Form {
     grid-column: 2;
-    grid-row: 6;
+    grid-row: 7;
   }
 }

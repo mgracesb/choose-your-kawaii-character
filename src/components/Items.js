@@ -26,7 +26,7 @@ export const Item1 = (props) => {
         onChange={selectItem1}
       />
       <label htmlFor="item11" className="item1Label">
-        ?
+        Aloha
       </label>
       <input
         type="radio"
@@ -36,7 +36,7 @@ export const Item1 = (props) => {
         onChange={selectItem1}
       />
       <label htmlFor="item12" className="item1Label">
-        ?
+        Kitty
       </label>
       <input
         type="radio"
@@ -46,7 +46,7 @@ export const Item1 = (props) => {
         onChange={selectItem1}
       />
       <label htmlFor="item13" className="item1Label">
-        ?
+        Sleep mask
       </label>
 
       <input
@@ -57,7 +57,7 @@ export const Item1 = (props) => {
         onChange={selectItem1}
       />
       <label htmlFor="item14" className="item1Label">
-        ?
+        Crown
       </label>
 
       <input
@@ -68,7 +68,7 @@ export const Item1 = (props) => {
         onChange={selectItem1}
       />
       <label htmlFor="item14" className="item1Label">
-        ?
+        Castor
       </label>
     </form>
   );
