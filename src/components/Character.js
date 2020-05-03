@@ -3,109 +3,102 @@ import React from "react";
 const Character = (props) => {
   const selectChar = (evt) => {
     evt.preventDefault();
-    props.charHandler(evt.target.value);
+    props.charHandler(evt.target.id);
+    console.log(evt.target.id);
   };
 
   return (
     <form className="characterForm">
       <h2>Character:</h2>
-      <input
-        type="radio"
-        name="character"
-        id="character"
-        value="panda"
+
+      <label
+        htmlFor="panda"
+        className="charLabel"
+        id="panda"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Panda
+        <input type="radio" name="character" id="panda" value="panda" />
       </label>
 
-      <input
-        type="radio"
-        name="character"
-        value="koala"
-        id="character"
+      <label
+        htmlFor="koala"
+        className="charLabel"
+        id="koala"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Koala
+        <input type="radio" name="character" value="koala" id="koala" />
       </label>
 
-      <input
-        type="radio"
-        name="character"
-        value="hamster"
-        id="character"
+      <label
+        htmlFor="character"
+        className="charLabel"
+        id="hamster"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Hamster
+        <input type="radio" name="character" value="hamster" id="hamster" />
       </label>
 
-      <input
-        type="radio"
-        name="character"
-        value="bunny"
-        id="character"
+      <label
+        htmlFor="bunny"
+        className="charLabel"
+        id="bunny"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Bunny
+        <input type="radio" name="character" value="bunny" id="bunny" />
       </label>
 
-      <input
-        type="radio"
-        name="character"
-        value="lion"
-        id="character"
+      <label
+        htmlFor="character"
+        className="charLabel"
+        id="lion"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Lion
+        <input type="radio" name="character" value="lion" id="lion" />
       </label>
 
-      <input
-        type="radio"
-        name="character"
-        value="alien"
-        id="character"
+      <label
+        htmlFor="character"
+        className="charLabel"
+        id="alien"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Alien
+        <input type="radio" name="character" value="alien" id="alien" />
       </label>
 
-      <input
-        type="radio"
-        name="character"
-        value="dog"
-        id="character"
+      <label
+        htmlFor="character"
+        className="charLabel"
+        id="dog"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Dog
+        <input type="radio" name="character" value="dog" id="dog" />
       </label>
 
-      <input
-        type="radio"
-        name="character"
-        value="death"
-        id="character"
+      <label
+        htmlFor="character"
+        className="charLabel"
+        id="death"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Death
+        <input type="radio" name="character" value="death" id="death" />
       </label>
 
-      <input
-        type="radio"
-        name="character"
-        value="fish"
-        id="character"
+      <label
+        htmlFor="character"
+        className="charLabel"
+        id="fish"
         onClick={selectChar}
-      />
-      <label htmlFor="character" className="charLabel">
+      >
         &nbsp; Fish
+        <input type="radio" name="character" value="fish" id="fish" />
       </label>
     </form>
   );

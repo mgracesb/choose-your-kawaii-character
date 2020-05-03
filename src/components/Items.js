@@ -7,68 +7,76 @@ export const Item1 = (props) => {
   return (
     <form className="item1Form">
       <h2>Item:</h2>
-      <input
-        type="radio"
-        value="defaultItem"
-        name="item1"
-        id="item1"
-        onChange={selectItem1}
-      />
       <label htmlFor="item1" className="item1Label">
         Bunny headband
+        <input
+          className="radioButton"
+          type="radio"
+          value="defaultItem"
+          name="item1"
+          id="item1"
+          onChange={selectItem1}
+        />
       </label>
 
-      <input
-        type="radio"
-        value="one"
-        name="item1"
-        id="item11"
-        onChange={selectItem1}
-      />
       <label htmlFor="item11" className="item1Label">
         Aloha
+        <input
+          className="radioButton"
+          type="radio"
+          value="one"
+          name="item1"
+          id="item11"
+          onChange={selectItem1}
+        />
       </label>
-      <input
-        type="radio"
-        value="two"
-        name="item1"
-        id="item12"
-        onChange={selectItem1}
-      />
+
       <label htmlFor="item12" className="item1Label">
         Kitty
+        <input
+          className="radioButton"
+          type="radio"
+          value="two"
+          name="item1"
+          id="item12"
+          onChange={selectItem1}
+        />
       </label>
-      <input
-        type="radio"
-        value="three"
-        name="item1"
-        id="item13"
-        onChange={selectItem1}
-      />
+
       <label htmlFor="item13" className="item1Label">
         Sleep mask
+        <input
+          className="radioButton"
+          type="radio"
+          value="three"
+          name="item1"
+          id="item13"
+          onChange={selectItem1}
+        />
       </label>
 
-      <input
-        type="radio"
-        value="four"
-        name="item1"
-        id="item14"
-        onChange={selectItem1}
-      />
       <label htmlFor="item14" className="item1Label">
         Crown
+        <input
+          className="radioButton"
+          type="radio"
+          value="four"
+          name="item1"
+          id="item14"
+          onChange={selectItem1}
+        />
       </label>
 
-      <input
-        type="radio"
-        value="five"
-        name="item1"
-        id="item14"
-        onChange={selectItem1}
-      />
-      <label htmlFor="item14" className="item1Label">
+      <label htmlFor="item15" className="item1Label">
         Castor
+        <input
+          className="radioButton"
+          type="radio"
+          value="five"
+          name="item1"
+          id="item15"
+          onChange={selectItem1}
+        />
       </label>
     </form>
   );
