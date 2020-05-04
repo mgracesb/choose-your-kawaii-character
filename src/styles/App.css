@@ -284,6 +284,14 @@ select {
   background-position: center;
 }
 
+.item1Label {
+  width: 90px;
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-bottom: 3px;
+}
+
 input {
   opacity: 0;
 }

@@ -8,7 +8,7 @@ export const Item1 = (props) => {
     <form className="item1Form">
       <h2>Item:</h2>
       <label htmlFor="item1" className="item1Label">
-        Bunny headband
+        Bunny ears
         <input
           className="radioButton"
           type="radio"
@@ -32,7 +32,7 @@ export const Item1 = (props) => {
       </label>
 
       <label htmlFor="item12" className="item1Label">
-        Kitty
+        Kitty ears
         <input
           className="radioButton"
           type="radio"
@@ -44,7 +44,7 @@ export const Item1 = (props) => {
       </label>
 
       <label htmlFor="item13" className="item1Label">
-        Sleep mask
+        Sleeping mask
         <input
           className="radioButton"
           type="radio"
