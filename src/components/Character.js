@@ -3,8 +3,7 @@ import React from "react";
 const Character = (props) => {
   const selectChar = (evt) => {
     evt.preventDefault();
-    props.charHandler(evt.target.id);
-    console.log(evt.target.id);
+    props.charHandler(evt.currentTarget.id);
   };
 
   return (

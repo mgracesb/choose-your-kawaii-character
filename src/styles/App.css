@@ -64,8 +64,8 @@ select {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 .bg__beach {
@@ -73,8 +73,8 @@ select {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 .bg__rainbow {
@@ -82,8 +82,8 @@ select {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 .bg__techy {
@@ -91,8 +91,8 @@ select {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 .bg__mermaid {
@@ -100,8 +100,8 @@ select {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 .bg__sweetooth {
@@ -109,8 +109,8 @@ select {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 .bg__circuit {
@@ -118,8 +118,8 @@ select {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 /* CHARACTER RADIOS */
@@ -128,26 +128,28 @@ select {
 .characterForm {
   font-family: "Spartan", sans-serif;
   font-size: 14px;
-  width: 80%;
+  width: 100%;
   grid-column: 2;
   grid-row: 12;
   display: grid;
-  grid-gap: 2%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3%;
 }
 
 .labelContainer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  border: 2px solid white;
+  grid-template-columns: 1px 1fr;
+  background-color: white;
   border-radius: 20px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 .char__defaultKawaii {
   background-image: url("../images/panda.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 3 / span 8;
+  grid-column: 3 / span 8;
   background-position: center;
 }
 
@@ -155,8 +157,8 @@ select {
   background-image: url("../images/panda.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 3 / span 8;
+  grid-column: 3 / span 8;
   background-position: center;
 }
 
@@ -164,8 +166,8 @@ select {
   background-image: url("../images/hamster.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 2 / span 10;
+  grid-column: 2 / span 10;
   background-position: center;
 }
 
@@ -173,8 +175,8 @@ select {
   background-image: url("../images/koala.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 1/-1;
+  grid-row: 2 / span 10;
+  grid-column: 2 / span 10;
   background-position: center;
 }
 
@@ -182,8 +184,8 @@ select {
   background-image: url("../images/bunny.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 2 / span 9;
+  grid-column: 2 / span 10;
   background-position: center;
 }
 
@@ -191,8 +193,8 @@ select {
   background-image: url("../images/alien.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 3 / span 8;
+  grid-column: 3 / span 8;
   background-position: center;
 }
 
@@ -200,8 +202,8 @@ select {
   background-image: url("../images/lion.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 3 / span 8;
+  grid-column: 3 / span 8;
   background-position: center;
 }
 
@@ -209,8 +211,8 @@ select {
   background-image: url("../images/dog.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 3 / span 8;
+  grid-column: 3 / span 8;
   background-position: center;
 }
 
@@ -218,8 +220,8 @@ select {
   background-image: url("../images/death.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 3 / span 8;
+  grid-column: 3 / span 8;
   background-position: center;
 }
 
@@ -227,15 +229,14 @@ select {
   background-image: url("../images/fish.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2/6;
-  grid-column: 2/6;
+  grid-row: 2 / span 10;
+  grid-column: 2 / span 10;
   background-position: center;
 }
 
 .charLabel {
-  width: 100%;
-  padding: 5px;
-  align-self: center;
+  font-size: 1px;
+  color: white;
 }
 
 .panda-s {
@@ -243,8 +244,7 @@ select {
   height: 50px;
   background: url(../images/panda.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 
 .koala-s {
@@ -252,8 +252,7 @@ select {
   height: 50px;
   background: url(../images/koala.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 
 .hamster-s {
@@ -261,8 +260,7 @@ select {
   height: 50px;
   background: url(../images/hamster.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 
 .bunny-s {
@@ -270,8 +268,7 @@ select {
   height: 50px;
   background: url(../images/bunny.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 
 .lion-s {
@@ -279,8 +276,7 @@ select {
   height: 50px;
   background: url(../images/lion.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 
 .alien-s {
@@ -288,8 +284,7 @@ select {
   height: 50px;
   background: url(../images/alien.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 
 .dog-s {
@@ -297,8 +292,7 @@ select {
   height: 50px;
   background: url(../images/dog.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 
 .death-s {
@@ -306,8 +300,7 @@ select {
   height: 50px;
   background: url(../images/death.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 
 .fish-s {
@@ -315,8 +308,7 @@ select {
   height: 50px;
   background: url(../images/fish.svg) no-repeat;
   background-size: contain;
-  justify-self: right;
-  padding-right: 5%;
+  justify-self: center;
 }
 /* ITEM RADIOS */
 
@@ -430,6 +422,9 @@ input {
   .characterForm {
     grid-row: 6;
     grid-column: 2/4;
+    display: grid;
+    grid-template-columns: 2;
+    grid-gap: 2%;
   }
 
   .item1Form {
