@@ -11,35 +11,42 @@ const Character = (props) => {
     <form className="characterForm">
       <h2>Character:</h2>
 
-      <label
-        htmlFor="panda"
-        className="charLabel"
-        id="panda"
-        onClick={selectChar}
-      >
-        &nbsp; Panda
-        <input type="radio" name="character" id="panda" value="panda" />
-      </label>
+      <div className="labelContainer" id="panda" onClick={selectChar}>
+        <label
+          htmlFor="panda"
+          className="charLabel"
+          id="panda"
+          onClick={selectChar}
+        >
+          &nbsp; Panda
+          <input type="radio" name="character" id="panda" value="panda" />
+        </label>
+        <span className="panda-s"></span>
+      </div>
 
-      <label
-        htmlFor="koala"
-        className="charLabel"
-        id="koala"
-        onClick={selectChar}
-      >
-        &nbsp; Koala
-        <input type="radio" name="character" value="koala" id="koala" />
-      </label>
+      <div className="labelContainer" id="koala-s" onClick={selectChar}>
+        <label
+          htmlFor="koala"
+          className="charLabel"
+          id="koala"
+          onClick={selectChar}
+        >
+          &nbsp; Koala
+          <input type="radio" name="character" value="koala" id="koala" />
+        </label>
+      </div>
 
-      <label
-        htmlFor="character"
-        className="charLabel"
-        id="hamster"
-        onClick={selectChar}
-      >
-        &nbsp; Hamster
-        <input type="radio" name="character" value="hamster" id="hamster" />
-      </label>
+      <div className="labelContainer" id="hamster-s" onClick={selectChar}>
+        <label
+          htmlFor="character"
+          className="charLabel"
+          id="hamster"
+          onClick={selectChar}
+        >
+          &nbsp; Hamster
+          <input type="radio" name="character" value="hamster" id="hamster" />
+        </label>
+      </div>
 
       <label
         htmlFor="bunny"
