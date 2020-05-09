@@ -233,15 +233,90 @@ select {
 }
 
 .charLabel {
-  width: 90px;
+  width: 100%;
   padding: 5px;
+  align-self: center;
 }
 
 .panda-s {
-  height: 100%;
-  width: 100%;
+  width: 50px;
+  height: 50px;
   background: url(../images/panda.svg) no-repeat;
   background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.koala-s {
+  width: 50px;
+  height: 50px;
+  background: url(../images/koala.svg) no-repeat;
+  background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.hamster-s {
+  width: 50px;
+  height: 50px;
+  background: url(../images/hamster.svg) no-repeat;
+  background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.bunny-s {
+  width: 50px;
+  height: 50px;
+  background: url(../images/bunny.svg) no-repeat;
+  background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.lion-s {
+  width: 50px;
+  height: 50px;
+  background: url(../images/lion.svg) no-repeat;
+  background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.alien-s {
+  width: 50px;
+  height: 50px;
+  background: url(../images/alien.svg) no-repeat;
+  background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.dog-s {
+  width: 50px;
+  height: 50px;
+  background: url(../images/dog.svg) no-repeat;
+  background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.death-s {
+  width: 50px;
+  height: 50px;
+  background: url(../images/death.svg) no-repeat;
+  background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
+}
+
+.fish-s {
+  width: 50px;
+  height: 50px;
+  background: url(../images/fish.svg) no-repeat;
+  background-size: contain;
+  justify-self: right;
+  padding-right: 5%;
 }
 /* ITEM RADIOS */
 
@@ -251,7 +326,6 @@ select {
   font-size: 14px;
   grid-column: 4;
   grid-row: 12;
-
   display: grid;
 }
 
