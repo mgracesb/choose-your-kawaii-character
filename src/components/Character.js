@@ -49,17 +49,17 @@ const Character = (props) => {
         <span className="hamster-s"></span>
       </div>
 
-      <div className="labelContainer" id="bunny" onClick={selectChar}>
+      <div className="labelContainer" id="monkey" onClick={selectChar}>
         <label
-          htmlFor="bunny"
+          htmlFor="monkey"
           className="charLabel"
-          id="bunny"
+          id="monkey"
           onClick={selectChar}
         >
-          Bunny
-          <input type="radio" name="character" value="bunny" id="bunny" />
+          Monkey
+          <input type="radio" name="character" value="monkey" id="monkey" />
         </label>
-        <span className="bunny-s"></span>
+        <span className="monkey-s"></span>
       </div>
 
       <div className="labelContainer" id="lion" onClick={selectChar}>
@@ -125,6 +125,19 @@ const Character = (props) => {
           <input type="radio" name="character" value="fish" id="fish" />
         </label>
         <span className="fish-s"></span>
+      </div>
+
+      <div className="labelContainer" id="wolf" onClick={selectChar}>
+        <label
+          htmlFor="character"
+          className="charLabel"
+          id="wolf"
+          onClick={selectChar}
+        >
+          Wolf
+          <input type="radio" name="character" value="wolf" id="wolf" />
+        </label>
+        <span className="wolf-s"></span>
       </div>
     </form>
   );

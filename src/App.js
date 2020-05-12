@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles/App.css";
 import Character from "./components/Character";
-import { Item1 } from "./components/Items";
-// import Item2 from "./components/Items";
+import Item1 from "./components/Items";
 import Header from "./components/Header";
 import Bg from "./components/Bg";
 import Preview from "./components/Preview";
+import Item2 from "./components/Items2";
 
 class App extends React.Component {
   constructor(props) {
@@ -43,6 +43,7 @@ class App extends React.Component {
         <Bg bgHandler={this.bgHandler} />
         <Character charHandler={this.charHandler} />
         <Item1 item1Handler={this.item1Handler} />
+        <Item2 />
       </div>
     );
   }
