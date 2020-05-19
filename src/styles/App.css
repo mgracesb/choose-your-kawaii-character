@@ -9,7 +9,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 15px repeat(5, 1fr) 15px;
-  grid-template-rows: 3vh 7vh 30vh 2vh 5vh 20vh 20vh 20vh 3vh;
+  grid-template-rows: 3vh 6vh 31vh 2vh 5vh 15vh 15vh 20vh 3vh;
 }
 
 .header {
@@ -31,13 +31,6 @@ h1 {
   grid-column: 2/7;
   display: grid;
   padding: 5%;
-}
-
-h2 {
-  font-size: 16px;
-  grid-column: 1/-1;
-  padding-bottom: 10px;
-  padding-top: 10px;
 }
 
 /* SELECT BACKGROUND */
@@ -69,8 +62,44 @@ select {
   grid-template-rows: repeat(12, 1fr);
 }
 
+.bg__astronomy {
+  background-image: url("../images/astronomy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
 .bg__beach {
   background-image: url("../images/beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.bg__circles {
+  background-image: url("../images/circles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.bg__circuit {
+  background-image: url("../images/circuit.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.bg__eighties {
+  background-image: url("../images/eighties.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -105,8 +134,8 @@ select {
   grid-template-rows: repeat(12, 1fr);
 }
 
-.bg__sweetooth {
-  background-image: url("../images/sweets.jpg");
+.bg__pink {
+  background-image: url("../images/pink.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -114,8 +143,8 @@ select {
   grid-template-rows: repeat(12, 1fr);
 }
 
-.bg__circuit {
-  background-image: url("../images/circuit.jpg");
+.bg__sweetooth {
+  background-image: url("../images/sweets.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -129,12 +158,20 @@ select {
 .characterForm {
   font-family: "Spartan", sans-serif;
   font-size: 14px;
+  padding-bottom: 5px;
   width: 100%;
-  grid-column: 2;
-  grid-row: 12;
+  grid-column: 2/7;
+  grid-row: 6/7;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 25px repeat(2, 1fr);
   grid-gap: 3%;
+}
+
+h2 {
+  font-size: 13px;
+  grid-column: 1/-1;
+  margin-top: 5px;
 }
 
 .labelContainer {
@@ -254,7 +291,7 @@ select {
   height: 30px;
   background: url(../images/panda.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .koala-s {
@@ -262,7 +299,7 @@ select {
   height: 30px;
   background: url(../images/koala.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .hamster-s {
@@ -270,7 +307,7 @@ select {
   height: 30px;
   background: url(../images/hamster.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .monkey-s {
@@ -278,7 +315,7 @@ select {
   height: 30px;
   background: url(../images/monkey.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .lion-s {
@@ -286,7 +323,7 @@ select {
   height: 30px;
   background: url(../images/lion.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .alien-s {
@@ -294,7 +331,7 @@ select {
   height: 30px;
   background: url(../images/alien.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .dog-s {
@@ -302,7 +339,7 @@ select {
   height: 30px;
   background: url(../images/dog.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .death-s {
@@ -310,7 +347,7 @@ select {
   height: 30px;
   background: url(../images/death.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .fish-s {
@@ -318,7 +355,7 @@ select {
   height: 30px;
   background: url(../images/fish.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .wolf-s {
@@ -326,90 +363,94 @@ select {
   height: 30px;
   background: url(../images/wolf.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 /* ITEM RADIOS */
 .defaultItem {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background: url(../images/item11.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .one-s {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background: url(../images/item17.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .two-s {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background: url(../images/item12.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .three-s {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background: url(../images/item13.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .four-s {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background: url(../images/item14.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .five-s {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background: url(../images/item15.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 .six-s {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background: url(../images/item16.svg) no-repeat;
   background-size: contain;
-  justify-self: center;
+  place-self: center;
 }
 
 /* PREVIEW ITEMS1 */
 .item1Form {
   font-family: "Spartan", sans-serif;
   font-size: 14px;
-  grid-column: 4;
-  grid-row: 12;
+  padding-bottom: 5px;
+  grid-column: 2/7;
+  grid-row: 7;
   display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 25px repeat(2, 1fr);
+  grid-gap: 3%;
 }
 
 .item1__defaultItem {
-  background-image: url("../images/item11.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  grid-row: 2 / span 7;
-  grid-column: 5 / span 4;
-  background-position: center;
-}
-
-.item1__one {
   background-image: url("../images/item17.svg");
   background-repeat: no-repeat;
   background-size: contain;
   grid-row: 3 / span 2;
   grid-column: 4 / span 4;
+  background-position: center;
+}
+
+.item1__one {
+  background-image: url("../images/item11.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 1 / span 8;
+  grid-column: 3 / span 8;
   background-position: center;
 }
 
@@ -423,11 +464,11 @@ select {
 }
 
 .item1__three {
-  background-image: url("../images/item13.svg");
+  background-image: url("../images/item15.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2 / span 8;
-  grid-column: 4 / span 6;
+  grid-row: 2 / span 9;
+  grid-column: 3 / span 8;
   background-position: center;
 }
 
@@ -444,8 +485,8 @@ select {
   background-image: url("../images/item15.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2 / span 9;
-  grid-column: 3 / span 8;
+  grid-row: 2 / span 8;
+  grid-column: 4 / span 6;
   background-position: center;
 }
 
@@ -460,8 +501,8 @@ select {
 }
 
 .item1Label {
-  width: 90px;
-  background-color: white;
+  font-size: 1px;
+  color: white;
   margin-bottom: 5px;
   padding: 5px;
   padding-bottom: 3px;
@@ -476,6 +517,14 @@ input {
 .item2Form {
   font-family: "Spartan", sans-serif;
   font-size: 14px;
+  padding-bottom: 15px;
+  grid-column: 2/7;
+  grid-row: 8;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 25px repeat(2, 1fr);
+  grid-gap: 3%;
+  border-bottom: 1px dashed rgba(65, 224, 252, 0.616);
 }
 
 /* MEDIAQUERIES */

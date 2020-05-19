@@ -7,9 +7,10 @@ const Item1 = (props) => {
   return (
     <form className="item1Form">
       <h2>Items 1:</h2>
+
       <div className="labelContainer" id="defaultItem" onClick={selectItem1}>
         <label htmlFor="defaultItem" className="item1Label">
-          Bunny ears
+          Aloha
           <input
             className="radioButton"
             type="radio"
@@ -19,12 +20,12 @@ const Item1 = (props) => {
             onClick={selectItem1}
           />
         </label>
-        <span className="defaultItem"></span>
+        <span className="one-s"></span>
       </div>
 
       <div className="labelContainer" id="one" onClick={selectItem1}>
         <label htmlFor="one" className="item1Label">
-          Aloha
+          Bunny ears
           <input
             className="radioButton"
             type="radio"
@@ -54,7 +55,7 @@ const Item1 = (props) => {
 
       <div className="labelContainer" id="three" onClick={selectItem1}>
         <label htmlFor="three" className="item1Label">
-          Sleeping mask
+          Castor
           <input
             className="radioButton"
             type="radio"
@@ -84,7 +85,7 @@ const Item1 = (props) => {
 
       <div className="labelContainer" id="five" onClick={selectItem1}>
         <label htmlFor="five" className="item1Label">
-          Castor
+          Mortarboard
           <input
             className="radioButton"
             type="radio"
@@ -95,6 +96,21 @@ const Item1 = (props) => {
           />
         </label>
         <span className="five-s"></span>
+      </div>
+
+      <div className="labelContainer" id="three" onClick={selectItem1}>
+        <label htmlFor="three" className="item1Label">
+          Sleeping mask
+          <input
+            className="radioButton"
+            type="radio"
+            value="three"
+            name="item1"
+            id="three"
+            onClick={selectItem1}
+          />
+        </label>
+        <span className="three-s"></span>
       </div>
 
       <div className="labelContainer" id="six" onClick={selectItem1}>
