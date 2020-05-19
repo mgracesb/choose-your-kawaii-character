@@ -5,7 +5,7 @@ const Item2 = (props) => {
   };
   return (
     <form className="item2Form">
-      <h2>Item:</h2>
+      <h2>Items 2:</h2>
 
       <div className="labelContainer" id="monkey" onChange={selectItem2}>
         <label htmlFor="item2" className="item1Label">
@@ -170,7 +170,6 @@ const Item2 = (props) => {
         </label>
         <span className="lion-s"></span>
       </div>
-
       <div className="labelContainer" id="monkey" onChange={selectItem2}>
         <label htmlFor="item16" className="item1Label">
           Snorkel

@@ -1,7 +1,6 @@
 import React from "react";
 
 const Preview = (props) => {
-  console.log(props);
   return (
     <div className="previewContainer">
       <div className={`bg__${props.bg}`}>
