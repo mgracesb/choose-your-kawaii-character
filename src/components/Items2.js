@@ -3,28 +3,27 @@ import React from "react";
 const Item2 = (props) => {
   const selectItem2 = (evt) => {
     props.item2Handler(evt.currentTarget.id);
-    console.log(evt.currentTarget.id);
   };
   return (
     <form className="item2Form">
       <h2>Items 2:</h2>
 
-      <div className="labelContainer" id="defaultItem" onChange={selectItem2}>
+      <div className="labelContainer" id="defaultItem2" onClick={selectItem2}>
         <label htmlFor="one" className="item2Label">
           Coctail
           <input
             className="radioButton"
             type="radio"
-            value="defaultItem"
+            value="defaultItem2"
             name="item2"
-            id="defaultItem"
-            onChange={selectItem2}
+            id="defaultItem2"
+            onClick={selectItem2}
           />
         </label>
         <span className="defaultItem-t"></span>
       </div>
 
-      <div className="labelContainer" id="one" onChange={selectItem2}>
+      <div className="labelContainer" id="one" onClick={selectItem2}>
         <label htmlFor="one" className="item2Label">
           Beer
           <input
@@ -33,13 +32,13 @@ const Item2 = (props) => {
             value="one"
             name="item2"
             id="one"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="one-t"></span>
       </div>
 
-      <div className="labelContainer" id="two" onChange={selectItem2}>
+      <div className="labelContainer" id="two" onClick={selectItem2}>
         <label htmlFor="two" className="item2Label">
           Book
           <input
@@ -48,13 +47,13 @@ const Item2 = (props) => {
             value="two"
             name="item2"
             id="two"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="two-t"></span>
       </div>
 
-      <div className="labelContainer" id="three" onChange={selectItem2}>
+      <div className="labelContainer" id="three" onClick={selectItem2}>
         <label htmlFor="three" className="item2Label">
           Paint
           <input
@@ -63,13 +62,13 @@ const Item2 = (props) => {
             value="three"
             name="item2"
             id="three"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="three-t"></span>
       </div>
 
-      <div className="labelContainer" id="four" onChange={selectItem2}>
+      <div className="labelContainer" id="four" onClick={selectItem2}>
         <label htmlFor="four" className="item2Label">
           Pop-Corn
           <input
@@ -78,13 +77,13 @@ const Item2 = (props) => {
             value="four"
             name="item2"
             id="four"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="four-t"></span>
       </div>
 
-      <div className="labelContainer" id="five" onChange={selectItem2}>
+      <div className="labelContainer" id="five" onClick={selectItem2}>
         <label htmlFor="five" className="item1Label">
           Sword
           <input
@@ -93,13 +92,13 @@ const Item2 = (props) => {
             value="five"
             name="item2"
             id="five"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="five-t"></span>
       </div>
 
-      <div className="labelContainer" id="six" onChange={selectItem2}>
+      <div className="labelContainer" id="six" onClick={selectItem2}>
         <label htmlFor="six" className="item2Label">
           Wine
           <input
@@ -108,13 +107,13 @@ const Item2 = (props) => {
             value="six"
             name="item2"
             id="six"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="six-t"></span>
       </div>
 
-      <div className="labelContainer" id="seven" onChange={selectItem2}>
+      <div className="labelContainer" id="seven" onClick={selectItem2}>
         <label htmlFor="seven" className="item2Label">
           Camera
           <input
@@ -123,13 +122,13 @@ const Item2 = (props) => {
             value="seven"
             name="item2"
             id="seven"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="seven-t"></span>
       </div>
 
-      <div className="labelContainer" id="eight" onChange={selectItem2}>
+      <div className="labelContainer" id="eight" onClick={selectItem2}>
         <label htmlFor="eight" className="item2Label">
           Mobile
           <input
@@ -138,13 +137,13 @@ const Item2 = (props) => {
             value="eight"
             name="item2"
             id="eight"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="eight-t"></span>
       </div>
 
-      <div className="labelContainer" id="nine" onChange={selectItem2}>
+      <div className="labelContainer" id="nine" onClick={selectItem2}>
         <label htmlFor="nine" className="item2Label">
           Nurse
           <input
@@ -153,13 +152,13 @@ const Item2 = (props) => {
             value="nine"
             name="item2"
             id="nine"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="nine-t"></span>
       </div>
 
-      <div className="labelContainer" id="ten" onChange={selectItem2}>
+      <div className="labelContainer" id="ten" onClick={selectItem2}>
         <label htmlFor="ten" className="item2Label">
           Dino
           <input
@@ -168,13 +167,13 @@ const Item2 = (props) => {
             value="ten"
             name="item2"
             id="ten"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="ten-t"></span>
       </div>
 
-      <div className="labelContainer" id="eleven" onChange={selectItem2}>
+      <div className="labelContainer" id="eleven" onClick={selectItem2}>
         <label htmlFor="eleven" className="item2Label">
           Potion
           <input
@@ -183,13 +182,13 @@ const Item2 = (props) => {
             value="eleven"
             name="item2"
             id="eleven"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="eleven-t"></span>
       </div>
 
-      <div className="labelContainer" id="twelve" onChange={selectItem2}>
+      <div className="labelContainer" id="twelve" onClick={selectItem2}>
         <label htmlFor="twelve" className="item2Label">
           Surf
           <input
@@ -198,13 +197,13 @@ const Item2 = (props) => {
             value="twelve"
             name="item2"
             id="twelve"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="twelve-t"></span>
       </div>
 
-      <div className="labelContainer" id="thirteen" onChange={selectItem2}>
+      <div className="labelContainer" id="thirteen" onClick={selectItem2}>
         <label htmlFor="thirteen" className="item2Label">
           PC
           <input
@@ -213,13 +212,13 @@ const Item2 = (props) => {
             value="thirteen"
             name="item2"
             id="thirteen"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="thirteen-t"></span>
       </div>
 
-      <div className="labelContainer" id="fourteen" onChange={selectItem2}>
+      <div className="labelContainer" id="fourteen" onClick={selectItem2}>
         <label htmlFor="fourteen" className="item2Label">
           Chamaleon
           <input
@@ -228,13 +227,13 @@ const Item2 = (props) => {
             value="fourteen"
             name="item2"
             id="fourteen"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="fourteen-t"></span>
       </div>
 
-      <div className="labelContainer" id="fifteen" onChange={selectItem2}>
+      <div className="labelContainer" id="fifteen" onClick={selectItem2}>
         <label htmlFor="fifteen" className="item2Label">
           IceCream
           <input
@@ -243,13 +242,13 @@ const Item2 = (props) => {
             value="fifteen"
             name="item2"
             id="fifteen"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="fifteen-t"></span>
       </div>
 
-      <div className="labelContainer" id="sixteen" onChange={selectItem2}>
+      <div className="labelContainer" id="sixteen" onClick={selectItem2}>
         <label htmlFor="sixteen" className="item2Label">
           Plant
           <input
@@ -258,13 +257,13 @@ const Item2 = (props) => {
             value="sixteen"
             name="item2"
             id="sixteen"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="sixteen-t"></span>
       </div>
 
-      <div className="labelContainer" id="seventeen" onChange={selectItem2}>
+      <div className="labelContainer" id="seventeen" onClick={selectItem2}>
         <label htmlFor="seventeen" className="item2Label">
           Sing
           <input
@@ -273,7 +272,7 @@ const Item2 = (props) => {
             value="seventeen"
             name="item2"
             id="seventeen"
-            onChange={selectItem2}
+            onClick={selectItem2}
           />
         </label>
         <span className="seventeen-t"></span>

@@ -774,7 +774,7 @@ input {
 
 /* PREVIEW */
 
-.item2__defaultItem {
+.item2__defaultItem2 {
   background-image: url("../images/item35.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -1258,6 +1258,12 @@ input {
     font-size: 50px;
   }
 
+  .bgForm {
+    grid-row: 2/3;
+    grid-column: 2/4;
+    justify-self: left;
+  }
+
   .previewContainer {
     grid-row: 2/ 7;
     grid-column: 5/10;
@@ -1268,7 +1274,7 @@ input {
   select {
     height: 50px;
     width: 400px;
-    border: 2px solid rgb(84, 226, 191);
+    border: 2px solid rgba(65, 224, 252, 0.616);
     font-size: 15px;
   }
 
