@@ -172,6 +172,21 @@ const Item1 = (props) => {
         </label>
         <span className="ten-s"></span>
       </div>
+
+      <div className="labelContainer" id="eleven" onClick={selectItem1}>
+        <label htmlFor="eleven" className="item1Label">
+          King
+          <input
+            className="radioButton"
+            type="radio"
+            value="eleven"
+            name="item1"
+            id="eleven"
+            onClick={selectItem1}
+          />
+        </label>
+        <span className="eleven-s"></span>
+      </div>
     </form>
   );
 };

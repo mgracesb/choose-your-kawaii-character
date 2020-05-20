@@ -158,7 +158,7 @@ select {
 .characterForm {
   font-family: "Spartan", sans-serif;
   font-size: 14px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   width: 100%;
   grid-column: 2/7;
   grid-row: 6/7;
@@ -166,6 +166,7 @@ select {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 25px repeat(2, 1fr);
   grid-gap: 3%;
+  border-bottom: 1px dashed rgba(65, 224, 252, 0.616);
 }
 
 h2 {
@@ -455,17 +456,26 @@ h2 {
   place-self: center;
 }
 
+.eleven-s {
+  width: 30px;
+  height: 30px;
+  background: url(../images/item34.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
 /* PREVIEW ITEMS1 */
 .item1Form {
   font-family: "Spartan", sans-serif;
   font-size: 14px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   grid-column: 2/7;
   grid-row: 7;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 25px repeat(2, 1fr);
   grid-gap: 3%;
+  border-bottom: 1px dashed rgba(65, 224, 252, 0.616);
 }
 
 .item1__defaultItem {
@@ -567,6 +577,16 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   grid-row: 4 / span 6;
+  grid-column: 4 / span 6;
+  background-position: center;
+  z-index: 1;
+}
+
+.item1__eleven {
+  background-image: url("../images/item34.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 1 / span 5;
   grid-column: 4 / span 6;
   background-position: center;
   z-index: 1;
@@ -753,6 +773,7 @@ input {
 }
 
 /* PREVIEW */
+
 .item2__defaultItem {
   background-image: url("../images/item35.svg");
   background-repeat: no-repeat;
@@ -782,12 +803,153 @@ input {
   background-position: center;
   z-index: 1;
 }
+
 .item2__three {
-  background-image: url("../images/item35.svg");
+  background-image: url("../images/item25.svg");
   background-repeat: no-repeat;
   background-size: contain;
   grid-row: 7 / span 4;
   grid-column: 8 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__four {
+  background-image: url("../images/item26.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 4;
+  grid-column: 7 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__five {
+  background-image: url("../images/item27.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 5;
+  grid-column: 7 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__six {
+  background-image: url("../images/item28.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 8 / span 4;
+  grid-column: 7 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__seven {
+  background-image: url("../images/item29.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 8 / span 4;
+  grid-column: 7 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__eight {
+  background-image: url("../images/item30.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 8 / span 3;
+  grid-column: 8 / span 2;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__nine {
+  background-image: url("../images/item31.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 4;
+  grid-column: 8 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__ten {
+  background-image: url("../images/item32.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 4;
+  grid-column: 3 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__eleven {
+  background-image: url("../images/item33.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 8 / span 3;
+  grid-column: 8 / span 2;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__twelve {
+  background-image: url("../images/item36.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 5 / span 7;
+  grid-column: 8 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__thirteen {
+  background-image: url("../images/item38.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 5;
+  grid-column: 8 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__fourteen {
+  background-image: url("../images/item39.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 8 / span 4;
+  grid-column: 7 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__fifteen {
+  background-image: url("../images/item20.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 8 / span 3;
+  grid-column: 7 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__sixteen {
+  background-image: url("../images/item40.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 4;
+  grid-column: 3 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__seventeen {
+  background-image: url("../images/item16.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 8 / span 4;
+  grid-column: 4 / span 3;
   background-position: center;
   z-index: 1;
 }
@@ -797,13 +959,13 @@ input {
 @media all and (min-width: 768px) {
   .App {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 10% 40px 1fr 1fr 10%;
+    grid-template-columns: 10% repeat(8, 1fr) 10%;
+    grid-template-rows: 7% 2% repeat(4, 1fr) 5% repeat(4, 1fr) 3%;
   }
 
   .header {
-    grid-column: 2 / span 8;
-    grid-row: 1/2;
+    grid-column: 2 / 10;
+    grid-row: 1/3;
     place-self: center;
   }
 
@@ -813,117 +975,269 @@ input {
   }
 
   .previewContainer {
-    grid-row: 2/ 5;
-    grid-column: 5/10;
+    grid-row: 3/ 7;
+    grid-column: 3/9;
     display: grid;
     padding: 5%;
   }
 
   .bgForm {
-    grid-row: 2/3;
-    grid-column: 2/4;
-    justify-self: left;
+    grid-row: 7/8;
+    grid-column: 5/7;
   }
 
   .characterForm {
-    grid-row: 3/4;
-    grid-column: 2/4;
-    display: grid;
-    grid-template-rows: 5;
-    grid-template-columns: 2;
+    grid-row: 8/9;
+    grid-column: 2/10;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
     grid-gap: 2%;
+    padding-bottom: 10px;
   }
 
   .item1Form {
-    margin-top: 25%;
-    grid-row: 4/5;
-    grid-column: 2 /3;
+    grid-row: 9/10;
+    grid-column: 2 /10;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 2%;
   }
 
   .item2Form {
-    grid-column: 5/7;
-    grid-row: 3/4;
-    display: grid;
+    grid-row: 10/12;
+    grid-column: 2 /10;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 2%;
   }
 
   .panda-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/panda.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .koala-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/koala.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .hamster-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/hamster.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .monkey-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/monkey.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .lion-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/lion.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .alien-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/alien.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .dog-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/dog.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .death-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/death.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .fish-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/fish.svg) no-repeat;
     background-size: contain;
     justify-self: center;
   }
 
   .wolf-s {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: url(../images/wolf.svg) no-repeat;
     background-size: contain;
     justify-self: center;
+  }
+
+  .defaultItem {
+    width: 45px;
+    height: 45px;
+  }
+  .one-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .two-s {
+    width: 50px;
+    height: 50px;
+  }
+
+  .three-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .four-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .five-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .six-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .seven-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .eight-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .nine-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .ten-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .eleven-s {
+    width: 45px;
+    height: 45px;
+  }
+
+  .defaultItem-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .one-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .two-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .three-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .four-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .five-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .six-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .seven-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .eight-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .nine-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .ten-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .eleven-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .twelve-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .thirteen-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .fourteen-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .fifteen-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .sixteen-t {
+    width: 45px;
+    height: 45px;
+  }
+
+  .seventeen-t {
+    width: 45px;
+    height: 45px;
   }
 }
 

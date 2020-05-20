@@ -1,7 +1,9 @@
 import React from "react";
+
 const Item2 = (props) => {
   const selectItem2 = (evt) => {
-    props.item2Handler(evt.target.value);
+    props.item2Handler(evt.currentTarget.id);
+    console.log(evt.currentTarget.id);
   };
   return (
     <form className="item2Form">
@@ -15,7 +17,7 @@ const Item2 = (props) => {
             type="radio"
             value="defaultItem"
             name="item2"
-            id="one"
+            id="defaultItem"
             onChange={selectItem2}
           />
         </label>
@@ -54,7 +56,7 @@ const Item2 = (props) => {
 
       <div className="labelContainer" id="three" onChange={selectItem2}>
         <label htmlFor="three" className="item2Label">
-          Paints
+          Paint
           <input
             className="radioButton"
             type="radio"
