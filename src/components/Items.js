@@ -20,7 +20,7 @@ const Item1 = (props) => {
             onClick={selectItem1}
           />
         </label>
-        <span className="one-s"></span>
+        <span className="defaultItem"></span>
       </div>
 
       <div className="labelContainer" id="one" onClick={selectItem1}>
@@ -98,24 +98,9 @@ const Item1 = (props) => {
         <span className="five-s"></span>
       </div>
 
-      <div className="labelContainer" id="three" onClick={selectItem1}>
-        <label htmlFor="three" className="item1Label">
-          Sleeping mask
-          <input
-            className="radioButton"
-            type="radio"
-            value="three"
-            name="item1"
-            id="three"
-            onClick={selectItem1}
-          />
-        </label>
-        <span className="three-s"></span>
-      </div>
-
       <div className="labelContainer" id="six" onClick={selectItem1}>
         <label htmlFor="six" className="item1Label">
-          Snorkel
+          Sleeping mask
           <input
             className="radioButton"
             type="radio"
@@ -126,6 +111,51 @@ const Item1 = (props) => {
           />
         </label>
         <span className="six-s"></span>
+      </div>
+
+      <div className="labelContainer" id="seven" onClick={selectItem1}>
+        <label htmlFor="seven" className="item1Label">
+          Chef
+          <input
+            className="radioButton"
+            type="radio"
+            value="seven"
+            name="item1"
+            id="seven"
+            onClick={selectItem1}
+          />
+        </label>
+        <span className="seven-s"></span>
+      </div>
+
+      <div className="labelContainer" id="eight" onClick={selectItem1}>
+        <label htmlFor="eight" className="item1Label">
+          Captain
+          <input
+            className="radioButton"
+            type="radio"
+            value="eight"
+            name="item1"
+            id="eight"
+            onClick={selectItem1}
+          />
+        </label>
+        <span className="eight-s"></span>
+      </div>
+
+      <div className="labelContainer" id="nine" onClick={selectItem1}>
+        <label htmlFor="nine" className="item1Label">
+          Band aid
+          <input
+            className="radioButton"
+            type="radio"
+            value="nine"
+            name="item1"
+            id="nine"
+            onClick={selectItem1}
+          />
+        </label>
+        <span className="nine-s"></span>
       </div>
     </form>
   );

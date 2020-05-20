@@ -370,7 +370,7 @@ h2 {
 .defaultItem {
   width: 30px;
   height: 30px;
-  background: url(../images/item11.svg) no-repeat;
+  background: url(../images/item17.svg) no-repeat;
   background-size: contain;
   place-self: center;
 }
@@ -378,7 +378,7 @@ h2 {
 .one-s {
   width: 30px;
   height: 30px;
-  background: url(../images/item17.svg) no-repeat;
+  background: url(../images/item11.svg) no-repeat;
   background-size: contain;
   place-self: center;
 }
@@ -394,7 +394,7 @@ h2 {
 .three-s {
   width: 30px;
   height: 30px;
-  background: url(../images/item13.svg) no-repeat;
+  background: url(../images/item15.svg) no-repeat;
   background-size: contain;
   place-self: center;
 }
@@ -410,7 +410,7 @@ h2 {
 .five-s {
   width: 30px;
   height: 30px;
-  background: url(../images/item15.svg) no-repeat;
+  background: url(../images/item18.svg) no-repeat;
   background-size: contain;
   place-self: center;
 }
@@ -418,7 +418,31 @@ h2 {
 .six-s {
   width: 30px;
   height: 30px;
-  background: url(../images/item16.svg) no-repeat;
+  background: url(../images/item13.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.seven-s {
+  width: 30px;
+  height: 30px;
+  background: url(../images/item42.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.eight-s {
+  width: 30px;
+  height: 30px;
+  background: url(../images/item10.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.nine-s {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item41.svg) no-repeat;
   background-size: contain;
   place-self: center;
 }
@@ -482,20 +506,50 @@ h2 {
 }
 
 .item1__five {
-  background-image: url("../images/item15.svg");
+  background-image: url("../images/item18.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2 / span 8;
+  grid-row: 1 / span 5;
   grid-column: 4 / span 6;
   background-position: center;
 }
 
 .item1__six {
+  background-image: url("../images/item13.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 3 / span 7;
+  grid-column: 3 / span 8;
+  background-position: center;
+  z-index: 1;
+}
+
+.item1__seven {
+  background-image: url("../images/item42.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 1 / span 4;
+  grid-column: 5 / span 4;
+  background-position: center;
+  z-index: 1;
+}
+
+.item1__eight {
   background-image: url("../images/item10.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  grid-row: 2 / span 9;
-  grid-column: 3 / span 9;
+  grid-row: 1 / span 6;
+  grid-column: 4 / span 6;
+  background-position: center;
+  z-index: 1;
+}
+
+.item1__nine {
+  background-image: url("../images/item41.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 4 / span 2;
+  grid-column: 6 / span 2;
   background-position: center;
   z-index: 1;
 }
