@@ -447,6 +447,14 @@ h2 {
   place-self: center;
 }
 
+.ten-s {
+  width: 30px;
+  height: 30px;
+  background: url(../images/item19.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
 /* PREVIEW ITEMS1 */
 .item1Form {
   font-family: "Spartan", sans-serif;
@@ -554,6 +562,16 @@ h2 {
   z-index: 1;
 }
 
+.item1__ten {
+  background-image: url("../images/item19.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 4 / span 6;
+  grid-column: 4 / span 6;
+  background-position: center;
+  z-index: 1;
+}
+
 .item1Label {
   font-size: 1px;
   color: white;
@@ -568,6 +586,8 @@ input {
 
 /* ITEMS2 */
 
+/*RADIOS*/
+
 .item2Form {
   font-family: "Spartan", sans-serif;
   font-size: 14px;
@@ -579,6 +599,197 @@ input {
   grid-template-rows: 25px repeat(2, 1fr);
   grid-gap: 3%;
   border-bottom: 1px dashed rgba(65, 224, 252, 0.616);
+}
+
+.item2Label {
+  font-size: 1px;
+  color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-bottom: 3px;
+}
+
+.defaultItem-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item35.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+.one-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item22.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.two-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item23.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.three-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item25.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.four-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item26.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.five-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item27.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.six-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item28.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.seven-t {
+  width: 27px;
+  height: 27px;
+  background: url(../images/item29.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.eight-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item30.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.nine-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item31.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.ten-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item32.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.eleven-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item33.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.twelve-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item36.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.thirteen-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item38.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.fourteen-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item39.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.fifteen-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item20.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.sixteen-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item40.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+.seventeen-t {
+  width: 25px;
+  height: 25px;
+  background: url(../images/item16.svg) no-repeat;
+  background-size: contain;
+  place-self: center;
+}
+
+/* PREVIEW */
+.item2__defaultItem {
+  background-image: url("../images/item35.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 4;
+  grid-column: 8 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__one {
+  background-image: url("../images/item22.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 4;
+  grid-column: 8 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+
+.item2__two {
+  background-image: url("../images/item23.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 4;
+  grid-column: 8 / span 3;
+  background-position: center;
+  z-index: 1;
+}
+.item2__three {
+  background-image: url("../images/item35.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-row: 7 / span 4;
+  grid-column: 8 / span 3;
+  background-position: center;
+  z-index: 1;
 }
 
 /* MEDIAQUERIES */

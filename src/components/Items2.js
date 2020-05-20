@@ -1,203 +1,280 @@
 import React from "react";
 const Item2 = (props) => {
   const selectItem2 = (evt) => {
-    props.item1Handler(evt.target.value);
+    props.item2Handler(evt.target.value);
   };
   return (
     <form className="item2Form">
       <h2>Items 2:</h2>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item2" className="item1Label">
-          Bunny ears
+      <div className="labelContainer" id="defaultItem" onChange={selectItem2}>
+        <label htmlFor="one" className="item2Label">
+          Coctail
           <input
             className="radioButton"
             type="radio"
             value="defaultItem"
             name="item2"
-            id="item2"
+            id="one"
             onChange={selectItem2}
           />
-        </label>{" "}
-        <span className="lion-s"></span>{" "}
+        </label>
+        <span className="defaultItem-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item11" className="item1Label">
-          Aloha
+      <div className="labelContainer" id="one" onChange={selectItem2}>
+        <label htmlFor="one" className="item2Label">
+          Beer
           <input
             className="radioButton"
             type="radio"
             value="one"
             name="item2"
-            id="item11"
+            id="one"
             onChange={selectItem2}
           />
-        </label>{" "}
-        <span className="lion-s"></span>
+        </label>
+        <span className="one-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item12" className="item1Label">
-          Kitty ears
+      <div className="labelContainer" id="two" onChange={selectItem2}>
+        <label htmlFor="two" className="item2Label">
+          Book
           <input
             className="radioButton"
             type="radio"
             value="two"
             name="item2"
-            id="item12"
+            id="two"
             onChange={selectItem2}
           />
-        </label>{" "}
-        <span className="lion-s"></span>
+        </label>
+        <span className="two-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item13" className="item1Label">
-          Sleeping mask
+      <div className="labelContainer" id="three" onChange={selectItem2}>
+        <label htmlFor="three" className="item2Label">
+          Paints
           <input
             className="radioButton"
             type="radio"
             value="three"
             name="item2"
-            id="item13"
+            id="three"
             onChange={selectItem2}
           />
-        </label>{" "}
-        <span className="lion-s"></span>
+        </label>
+        <span className="three-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item14" className="item1Label">
-          Crown
+      <div className="labelContainer" id="four" onChange={selectItem2}>
+        <label htmlFor="four" className="item2Label">
+          Pop-Corn
           <input
             className="radioButton"
             type="radio"
             value="four"
             name="item2"
-            id="item14"
+            id="four"
             onChange={selectItem2}
           />
         </label>
-        <span className="lion-s"></span>
+        <span className="four-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item15" className="item1Label">
-          Castor
+      <div className="labelContainer" id="five" onChange={selectItem2}>
+        <label htmlFor="five" className="item1Label">
+          Sword
           <input
             className="radioButton"
             type="radio"
             value="five"
             name="item2"
-            id="item15"
+            id="five"
             onChange={selectItem2}
           />
         </label>
-        <span className="lion-s"></span>
+        <span className="five-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item16" className="item1Label">
-          Snorkel
+      <div className="labelContainer" id="six" onChange={selectItem2}>
+        <label htmlFor="six" className="item2Label">
+          Wine
           <input
             className="radioButton"
             type="radio"
             value="six"
             name="item2"
-            id="item16"
+            id="six"
             onChange={selectItem2}
           />
         </label>
-        <span className="lion-s"></span>
+        <span className="six-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item16" className="item1Label">
-          Snorkel
+      <div className="labelContainer" id="seven" onChange={selectItem2}>
+        <label htmlFor="seven" className="item2Label">
+          Camera
           <input
             className="radioButton"
             type="radio"
-            value="six"
+            value="seven"
             name="item2"
-            id="item16"
+            id="seven"
             onChange={selectItem2}
           />
         </label>
-        <span className="lion-s"></span>
+        <span className="seven-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item16" className="item1Label">
-          Snorkel
+      <div className="labelContainer" id="eight" onChange={selectItem2}>
+        <label htmlFor="eight" className="item2Label">
+          Mobile
           <input
             className="radioButton"
             type="radio"
-            value="six"
+            value="eight"
             name="item2"
-            id="item16"
+            id="eight"
             onChange={selectItem2}
           />
         </label>
-        <span className="lion-s"></span>
+        <span className="eight-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item16" className="item1Label">
-          Snorkel
+      <div className="labelContainer" id="nine" onChange={selectItem2}>
+        <label htmlFor="nine" className="item2Label">
+          Nurse
           <input
             className="radioButton"
             type="radio"
-            value="six"
+            value="nine"
             name="item2"
-            id="item16"
+            id="nine"
             onChange={selectItem2}
           />
         </label>
-        <span className="lion-s"></span>
-      </div>
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item16" className="item1Label">
-          Snorkel
-          <input
-            className="radioButton"
-            type="radio"
-            value="six"
-            name="item2"
-            id="item16"
-            onChange={selectItem2}
-          />
-        </label>
-        <span className="lion-s"></span>
-      </div>
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item16" className="item1Label">
-          Snorkel
-          <input
-            className="radioButton"
-            type="radio"
-            value="six"
-            name="item2"
-            id="item16"
-            onChange={selectItem2}
-          />
-        </label>
-        <span className="lion-s"></span>
+        <span className="nine-t"></span>
       </div>
 
-      <div className="labelContainer" id="monkey" onChange={selectItem2}>
-        <label htmlFor="item16" className="item1Label">
-          Snorkel
+      <div className="labelContainer" id="ten" onChange={selectItem2}>
+        <label htmlFor="ten" className="item2Label">
+          Dino
           <input
             className="radioButton"
             type="radio"
-            value="six"
+            value="ten"
             name="item2"
-            id="item16"
+            id="ten"
             onChange={selectItem2}
           />
         </label>
-        <span className="lion-s"></span>
+        <span className="ten-t"></span>
+      </div>
+
+      <div className="labelContainer" id="eleven" onChange={selectItem2}>
+        <label htmlFor="eleven" className="item2Label">
+          Potion
+          <input
+            className="radioButton"
+            type="radio"
+            value="eleven"
+            name="item2"
+            id="eleven"
+            onChange={selectItem2}
+          />
+        </label>
+        <span className="eleven-t"></span>
+      </div>
+
+      <div className="labelContainer" id="twelve" onChange={selectItem2}>
+        <label htmlFor="twelve" className="item2Label">
+          Surf
+          <input
+            className="radioButton"
+            type="radio"
+            value="twelve"
+            name="item2"
+            id="twelve"
+            onChange={selectItem2}
+          />
+        </label>
+        <span className="twelve-t"></span>
+      </div>
+
+      <div className="labelContainer" id="thirteen" onChange={selectItem2}>
+        <label htmlFor="thirteen" className="item2Label">
+          PC
+          <input
+            className="radioButton"
+            type="radio"
+            value="thirteen"
+            name="item2"
+            id="thirteen"
+            onChange={selectItem2}
+          />
+        </label>
+        <span className="thirteen-t"></span>
+      </div>
+
+      <div className="labelContainer" id="fourteen" onChange={selectItem2}>
+        <label htmlFor="fourteen" className="item2Label">
+          Chamaleon
+          <input
+            className="radioButton"
+            type="radio"
+            value="fourteen"
+            name="item2"
+            id="fourteen"
+            onChange={selectItem2}
+          />
+        </label>
+        <span className="fourteen-t"></span>
+      </div>
+
+      <div className="labelContainer" id="fifteen" onChange={selectItem2}>
+        <label htmlFor="fifteen" className="item2Label">
+          IceCream
+          <input
+            className="radioButton"
+            type="radio"
+            value="fifteen"
+            name="item2"
+            id="fifteen"
+            onChange={selectItem2}
+          />
+        </label>
+        <span className="fifteen-t"></span>
+      </div>
+
+      <div className="labelContainer" id="sixteen" onChange={selectItem2}>
+        <label htmlFor="sixteen" className="item2Label">
+          Plant
+          <input
+            className="radioButton"
+            type="radio"
+            value="sixteen"
+            name="item2"
+            id="sixteen"
+            onChange={selectItem2}
+          />
+        </label>
+        <span className="sixteen-t"></span>
+      </div>
+
+      <div className="labelContainer" id="seventeen" onChange={selectItem2}>
+        <label htmlFor="seventeen" className="item2Label">
+          Sing
+          <input
+            className="radioButton"
+            type="radio"
+            value="seventeen"
+            name="item2"
+            id="seventeen"
+            onChange={selectItem2}
+          />
+        </label>
+        <span className="seventeen-t"></span>
       </div>
     </form>
   );

@@ -15,11 +15,12 @@ class App extends React.Component {
       bg: "defaultBg",
       character: "defaultKawaii",
       item1: "defaultItem",
-      // item:default2
+      item2: "defaultItem2",
     };
     this.bgHandler = this.bgHandler.bind(this);
     this.charHandler = this.charHandler.bind(this);
     this.item1Handler = this.item1Handler.bind(this);
+    this.item2Handler = this.item2Handler.bind(this);
   }
 
   bgHandler(value) {
@@ -34,16 +35,20 @@ class App extends React.Component {
     this.setState({ item1: value });
   }
 
+  item2Handler(value) {
+    this.setState({ item2: value });
+  }
+
   render() {
-    const { bg, character, item1 } = this.state;
+    const { bg, character, item1, item2 } = this.state;
     return (
       <div className="App">
         <Header />
-        <Preview bg={bg} char={character} item1={item1} />
+        <Preview bg={bg} char={character} item1={item1} item2={item2} />
         <Bg bgHandler={this.bgHandler} />
         <Character charHandler={this.charHandler} />
         <Item1 item1Handler={this.item1Handler} />
-        <Item2 />
+        <Item2 item2Handler={this.item2Handler} />
       </div>
     );
   }
