@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 
 #  <div align="center">🌸Your Spirit Kawaii Animal🐼</div> 
 <p align="center">👩🏻‍💻Author: Mercy Shyu</p><br>
