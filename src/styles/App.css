@@ -183,6 +183,11 @@ h2 {
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
+.labelContainer:active {
+  transform: scale(1.2);
+  box-shadow: inset 0px -1px 1px 1px rgb(65, 224, 252);
+}
+
 .char__defaultKawaii {
   background-image: url("../images/panda.svg");
   background-repeat: no-repeat;
@@ -1243,12 +1248,12 @@ input {
 
 @media all and (min-width: 1200px) {
   .App {
-    grid-template-rows: 15% 40px repeat(4, 1fr) 10%;
-    grid-template-columns: 10% repeat(2, 1fr) 10% repeat(5, 1fr) 10%;
+    grid-template-rows: 15% repeat(4, 1fr) 10%;
+    grid-template-columns: 10% repeat(3, 1fr) 3% repeat(5, 1fr) 10%;
   }
 
   .header {
-    grid-column: 5 / 10;
+    grid-column: 6 / 11;
     grid-row: 1/2;
   }
 
@@ -1261,27 +1266,28 @@ input {
   }
 
   .bgForm {
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 2/4;
     justify-self: left;
+    align-self: end;
   }
 
   .previewContainer {
-    grid-row: 2/ 7;
-    grid-column: 5/10;
+    grid-row: 2/ 6;
+    grid-column: 6/11;
     display: grid;
     padding: 5%;
   }
 
   select {
-    height: 50px;
+    height: 40px;
     border: 2px solid rgba(65, 224, 252, 0.616);
     font-size: 15px;
   }
 
   .characterForm {
     margin-top: 10%;
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/4;
     display: grid;
     grid-template-rows: auto;
@@ -1291,7 +1297,7 @@ input {
 
   .item1Form {
     margin-top: 10%;
-    grid-row: 4/5;
+    grid-row: 3/4;
     grid-column: 2 /4;
     display: grid;
     grid-template-rows: auto;
@@ -1301,7 +1307,7 @@ input {
 
   .item2Form {
     margin-top: 10%;
-    grid-row: 5/7;
+    grid-row: 4/5;
     grid-column: 2 /4;
   }
 }
